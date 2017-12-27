@@ -1,12 +1,14 @@
-/*Body styles*/
-body{
+/*General styles*/
+
+body {
     margin: 0;
     font-size: 0;
 }
 
 
-/*Main header styles*/
-#main-header{
+/*Main header styles >1170px*/
+
+#main-header {
     background-image: url(../zadanie-domowe-rwd-materialy/img/man-1.jpg);
     position: relative;
     background-size: cover;
@@ -14,7 +16,7 @@ body{
     height: 100vh;
 }
 
-#main-header .main-header-content{
+#main-header .main-header-content {
     position: absolute;
     color: #fff;
     text-transform: uppercase;
@@ -22,17 +24,17 @@ body{
     margin-left: 30px;
     top: 50%;
     transform: translateY(-50%);
-    
+
 }
 
-#main-header .main-header-content h1{
-    
+#main-header .main-header-content h1 {
+
     font-size: 40px;
-    
+
 }
 
-#main-header .main-header-content h2{
-    
-    font-size: 20px;
-    
+#main-header .main-header-content h2 {
+
+    font-size: 30px;
+
 }
