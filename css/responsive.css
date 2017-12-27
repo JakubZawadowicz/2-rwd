@@ -1,0 +1,67 @@
+/*Medium screens*/
+
+@media all and (max-width: 1170px) {
+    #main-header {
+        background-image: url(../zadanie-domowe-rwd-materialy/img/man-2.jpg);
+        position: relative;
+        background-size: cover;
+        background-position: center;
+        height: 70vh;
+    }
+    #main-header .main-header-content {
+        position: absolute;
+        color: #fff;
+        text-transform: uppercase;
+        font-family: 'Verdana';
+        display: inline-block;
+        top: 15%;
+        right: 10%;
+    }
+
+    #main-header .main-header-content h1 {
+        font-size: 30px;
+
+    }
+
+    #main-header .main-header-content h2 {
+        font-size: 20px;
+
+    }
+
+}
+
+/*Small screens*/
+
+@media all and (max-width: 991px) {
+    #main-header {
+        background-image: url(../zadanie-domowe-rwd-materialy/img/man-1.jpg);
+        position: relative;
+        background-size: cover;
+        background-position: center;
+        height: 50vh;
+    }
+    #main-header .main-header-content {
+        position: absolute;
+        color: #000;
+        text-transform: uppercase;
+        font-family: 'Verdana';
+        display: inline-block;
+        text-align: center;
+        top: 100%;
+        margin-top: 10%;
+        right: 0;
+        left: 0;
+    
+    }
+
+    #main-header .main-header-content h1 {
+        font-size: 40px;
+
+    }
+
+    #main-header .main-header-content h2 {
+        font-size: 30px;
+
+    }
+
+}
